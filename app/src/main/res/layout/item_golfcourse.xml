@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/ivGolfCourse"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvGolfCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivGolfCourse"/>
+
+    <TextView
+        android:id="@+id/tvGolfCourseSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvGolfCourseName"
+        app:layout_constraintStart_toEndOf="@+id/ivGolfCourse"/>
+
+    <TextView
+        android:id="@+id/tvGolfCoursePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvGolfCourseSchedule"
+        app:layout_constraintStart_toEndOf="@+id/ivGolfCourse"/>
+
+    <TextView
+        android:id="@+id/tvGolfCourseLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvGolfCoursePhone"
+        app:layout_constraintStart_toEndOf="@+id/ivGolfCourse"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

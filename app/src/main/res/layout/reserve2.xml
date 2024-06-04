@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        android:background="#F4F4F4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/close4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="330dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/check4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/check" />
+
+        <TextView
+            android:id="@+id/texts7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Successfully"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texts8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Your round has been reserved"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/done_button4"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#248A3D"
+            android:text="Done" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

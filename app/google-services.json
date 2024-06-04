@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770002424877",
+    "project_id": "golfingapp-9ac2c",
+    "storage_bucket": "golfingapp-9ac2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770002424877:android:0d690c699dee2f857054a4",
+        "android_client_info": {
+          "package_name": "com.example.golfingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhw9NmVcDlOfIOwhEsBkzs5AlPnsDxSXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
